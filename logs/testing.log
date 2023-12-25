@@ -1,46 +1,8 @@
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Click search button
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Validation if searched product is displayed
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Closed browsers
-25-12-2023 14:19:23 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
-25-12-2023 14:19:26 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
-25-12-2023 14:19:26 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-25-12-2023 14:19:26 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-25-12-2023 14:19:26 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
-25-12-2023 14:19:26 [main] INFO  TestCases.SubscriptionTest - Closed browsers
-25-12-2023 14:19:56 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - Enters email address
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - ***** Finish testing for subscription in homepage *****
-25-12-2023 14:19:59 [main] INFO  TestCases.SubscriptionTest - Closed browsers
-25-12-2023 14:20:19 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Enters email address
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - ***** Finish testing for subscription in homepage *****
-25-12-2023 14:20:23 [main] INFO  TestCases.SubscriptionTest - Closed browsers
-25-12-2023 14:29:08 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
-25-12-2023 14:29:10 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
-25-12-2023 14:29:10 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-25-12-2023 14:29:10 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-25-12-2023 14:29:10 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
-25-12-2023 14:29:10 [main] INFO  TestCases.SubscriptionTest - Enters email address
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - ***** Finish testing for subscription in homepage *****
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - Click cart
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
-25-12-2023 14:29:11 [main] INFO  TestCases.SubscriptionTest - Enters email address
-25-12-2023 14:29:12 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
-25-12-2023 14:29:12 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
-25-12-2023 14:29:12 [main] INFO  TestCases.SubscriptionTest - Closed browsers
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
+25-12-2023 15:30:49 [main] INFO  TestCases.SubscriptionTest - Click cart
+25-12-2023 15:30:49 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
+25-12-2023 15:30:49 [main] INFO  TestCases.SubscriptionTest - Enters email address
+25-12-2023 15:30:49 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
+25-12-2023 15:30:49 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
+25-12-2023 15:30:49 [main] INFO  TestCases.SubscriptionTest - Closed browsers

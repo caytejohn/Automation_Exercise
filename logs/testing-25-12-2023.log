@@ -1,52 +1,53 @@
-25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
-25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
-25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
-25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
-25-12-2023 13:29:53 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:29:53 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:29:53 [main] INFO  TestCases.ProductTest - Enter item name in search-box
-25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - Click search button
-25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - Validation if searched product is displayed
-25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
-25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - Closed browsers
-25-12-2023 13:30:22 [main] INFO  TestCases.ProductTest - Opening the chrome browser
-25-12-2023 13:30:24 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
-25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
-25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
-25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
-25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Enter item name in search-box
-25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Click search button
-25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Validation if searched product is displayed
-25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
-25-12-2023 13:30:28 [main] INFO  TestCases.ProductTest - Closed browsers
-25-12-2023 13:30:42 [main] INFO  TestCases.ProductTest - Opening the chrome browser
-25-12-2023 13:30:44 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
-25-12-2023 13:30:44 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
-25-12-2023 13:30:44 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
-25-12-2023 13:30:46 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:30:46 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:30:46 [main] INFO  TestCases.ProductTest - Validation if product list is displayed
-25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - Click view product on first product
-25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - Validation if product information is displayed
-25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - ***** Finish testing for navigation to product page *****
-25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - Closed browsers
-25-12-2023 13:31:02 [main] INFO  TestCases.ProductTest - Opening the chrome browser
-25-12-2023 13:31:06 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
-25-12-2023 13:31:06 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
-25-12-2023 13:31:06 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Validation if product list is displayed
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Click view product on first product
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Validation if product information is displayed
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - ***** Finish testing for navigation to product page *****
-25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Click product
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Enter item name in search-box
+25-12-2023 15:30:20 [main] INFO  TestCases.RegisterTest - Closed browsers
+25-12-2023 15:30:21 [main] INFO  TestCases.ContactUsTest - Opening the chrome browser
+25-12-2023 15:30:24 [main] INFO  TestCases.ContactUsTest - Load URL: https://automationexercise.com/
+25-12-2023 15:30:24 [main] INFO  TestCases.ContactUsTest - ***** Starting testing for contact us form *****
+25-12-2023 15:30:24 [main] INFO  TestCases.ContactUsTest - Validation if user is in homepage
+25-12-2023 15:30:25 [main] INFO  TestCases.ContactUsTest - Click contact us
+25-12-2023 15:30:25 [main] INFO  TestCases.ContactUsTest - Validation if Get Touch is displayed
+25-12-2023 15:30:25 [main] INFO  TestCases.ContactUsTest - Enters name
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Enters email
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Enters subject
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Enters message
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Upload file
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Click submit
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Accept alert
+25-12-2023 15:30:26 [main] INFO  TestCases.ContactUsTest - Validation if success message is correct
+25-12-2023 15:30:27 [main] INFO  TestCases.ContactUsTest - Click home
+25-12-2023 15:30:27 [main] INFO  TestCases.ContactUsTest - Validation if user is in homepage
+25-12-2023 15:30:28 [main] INFO  TestCases.ContactUsTest - Closed browsers
+25-12-2023 15:30:29 [main] INFO  TestCases.NavigationTestCasesPageTest - Opening the chrome browser
+25-12-2023 15:30:32 [main] INFO  TestCases.NavigationTestCasesPageTest - Load URL: https://automationexercise.com/
+25-12-2023 15:30:32 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Starting testing for navigation to test cases page *****
+25-12-2023 15:30:32 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user is in homepage
+25-12-2023 15:30:33 [main] INFO  TestCases.NavigationTestCasesPageTest - Click test cases
+25-12-2023 15:30:33 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user successfully navigated to test cases page
+25-12-2023 15:30:33 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Finish testing for navigation to test cases page *****
+25-12-2023 15:30:33 [main] INFO  TestCases.NavigationTestCasesPageTest - Closed browsers
+25-12-2023 15:30:35 [main] INFO  TestCases.ProductTest - Opening the chrome browser
+25-12-2023 15:30:39 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
+25-12-2023 15:30:39 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
+25-12-2023 15:30:39 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
+25-12-2023 15:30:41 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 15:30:41 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 15:30:41 [main] INFO  TestCases.ProductTest - Validation if product list is displayed
+25-12-2023 15:30:42 [main] INFO  TestCases.ProductTest - Click view product on first product
+25-12-2023 15:30:42 [main] INFO  TestCases.ProductTest - Validation if product information is displayed
+25-12-2023 15:30:42 [main] INFO  TestCases.ProductTest - ***** Finish testing for navigation to product page *****
+25-12-2023 15:30:42 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
+25-12-2023 15:30:43 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 15:30:43 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 15:30:43 [main] INFO  TestCases.ProductTest - Enter item name in search-box
+25-12-2023 15:30:44 [main] INFO  TestCases.ProductTest - Click search button
+25-12-2023 15:30:44 [main] INFO  TestCases.ProductTest - Validation if searched product is displayed
+25-12-2023 15:30:44 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
+25-12-2023 15:30:44 [main] INFO  TestCases.ProductTest - Closed browsers
+25-12-2023 15:30:46 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Enters email address
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
+25-12-2023 15:30:48 [main] INFO  TestCases.SubscriptionTest - ***** Finish testing for subscription in homepage *****

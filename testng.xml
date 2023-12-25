@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite">
+    <test name="Functional Testing">
+        <classes>
+            <!--<class name="TestCases.LoginTest"/>
+            <class name="TestCases.RegisterTest"/>
+            <class name="TestCases.ContactUsTest"/>
+            <class name="TestCases.NavigationTestCasesPageTest"/>
+            <class name="TestCases.ProductTest"/>-->
+            <class name="TestCases.SubscriptionTest"/>
+        </classes>
+    </test>
+</suite>

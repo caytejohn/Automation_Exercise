@@ -1,0 +1,52 @@
+25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
+25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
+25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
+25-12-2023 13:29:51 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
+25-12-2023 13:29:53 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:29:53 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:29:53 [main] INFO  TestCases.ProductTest - Enter item name in search-box
+25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - Click search button
+25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - Validation if searched product is displayed
+25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
+25-12-2023 13:29:54 [main] INFO  TestCases.ProductTest - Closed browsers
+25-12-2023 13:30:22 [main] INFO  TestCases.ProductTest - Opening the chrome browser
+25-12-2023 13:30:24 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
+25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
+25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
+25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:30:25 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
+25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Enter item name in search-box
+25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Click search button
+25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - Validation if searched product is displayed
+25-12-2023 13:30:27 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
+25-12-2023 13:30:28 [main] INFO  TestCases.ProductTest - Closed browsers
+25-12-2023 13:30:42 [main] INFO  TestCases.ProductTest - Opening the chrome browser
+25-12-2023 13:30:44 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
+25-12-2023 13:30:44 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
+25-12-2023 13:30:44 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
+25-12-2023 13:30:46 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:30:46 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:30:46 [main] INFO  TestCases.ProductTest - Validation if product list is displayed
+25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - Click view product on first product
+25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - Validation if product information is displayed
+25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - ***** Finish testing for navigation to product page *****
+25-12-2023 13:30:47 [main] INFO  TestCases.ProductTest - Closed browsers
+25-12-2023 13:31:02 [main] INFO  TestCases.ProductTest - Opening the chrome browser
+25-12-2023 13:31:06 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
+25-12-2023 13:31:06 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
+25-12-2023 13:31:06 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Validation if product list is displayed
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Click view product on first product
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - Validation if product information is displayed
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - ***** Finish testing for navigation to product page *****
+25-12-2023 13:31:08 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
+25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Click product
+25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+25-12-2023 13:31:10 [main] INFO  TestCases.ProductTest - Enter item name in search-box

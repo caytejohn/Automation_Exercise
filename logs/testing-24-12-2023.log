@@ -1,0 +1,58 @@
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Validation if New User Signup is displayed
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Enters name
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Enters email
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Click signup button
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Validation if Enter Account Information is displayed
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Select title
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Enter password
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Select day
+24-12-2023 21:16:57 [main] INFO  TestCases.RegisterTest - Select month
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Select year
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Check newsletter checkbox
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Check offers checkbox
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter first name
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter last name
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter address 1
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Select country
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter state
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter city
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter zip code
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Enter mobile number
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Click create account button
+24-12-2023 21:16:58 [main] INFO  TestCases.RegisterTest - Validation if Account Created is displayed
+24-12-2023 21:17:07 [main] INFO  TestCases.RegisterTest - Click continue button
+24-12-2023 21:17:07 [main] INFO  TestCases.RegisterTest - Validation if Logged in as username is displayed
+24-12-2023 21:17:08 [main] INFO  TestCases.RegisterTest - Click delete account
+24-12-2023 21:17:08 [main] INFO  TestCases.RegisterTest - Validation if Account Deleted is displayed
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - Click continue button
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - ***** Finish testing for user registration *****
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - ***** Starting testing for user registration with existing email *****
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - Validation if user is in homepage
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - Click Signup / Login
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - Enters name
+24-12-2023 21:17:11 [main] INFO  TestCases.RegisterTest - Enters email
+24-12-2023 21:17:12 [main] INFO  TestCases.RegisterTest - Click signup button
+24-12-2023 21:17:12 [main] INFO  TestCases.RegisterTest - Validation if error message is correct
+24-12-2023 21:17:12 [main] INFO  TestCases.RegisterTest - ***** Finish testing for user registration with existing email *****
+24-12-2023 21:17:12 [main] INFO  TestCases.RegisterTest - Closed browsers
+24-12-2023 21:17:14 [main] INFO  TestCases.ContactUsTest - Opening the chrome browser
+24-12-2023 21:17:16 [main] INFO  TestCases.ContactUsTest - Load URL: https://automationexercise.com/
+24-12-2023 21:17:16 [main] INFO  TestCases.ContactUsTest - ***** Starting testing for contact us form *****
+24-12-2023 21:17:16 [main] INFO  TestCases.ContactUsTest - Validation if user is in homepage
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Click contact us
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Validation if Get Touch is displayed
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Enters name
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Enters email
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Enters subject
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Enters message
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Upload file
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Click submit
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Accept alert
+24-12-2023 21:17:18 [main] INFO  TestCases.ContactUsTest - Validation if success message is correct
+24-12-2023 21:17:20 [main] INFO  TestCases.ContactUsTest - Click home
+24-12-2023 21:17:20 [main] INFO  TestCases.ContactUsTest - Validation if user is in homepage
+24-12-2023 21:17:20 [main] INFO  TestCases.ContactUsTest - Closed browsers
+24-12-2023 21:17:22 [main] INFO  TestCases.NavigationTestCasesPageTest - Opening the chrome browser
+24-12-2023 21:17:24 [main] INFO  TestCases.NavigationTestCasesPageTest - Load URL: https://automationexercise.com/
+24-12-2023 21:17:24 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Starting testing for navigation to test cases page *****
+24-12-2023 21:17:24 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user is in homepage

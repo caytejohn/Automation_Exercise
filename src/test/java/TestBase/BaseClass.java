@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 
-public class BaseClass {
+public class BaseClass extends CommonMethods {
 
     public WebDriver driver;
     public Logger log;

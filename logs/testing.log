@@ -1,38 +1,18 @@
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter state
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter city
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter zip code
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter mobile number
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Click create account button
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Validation if Account Created is displayed
-26-12-2023 14:48:34 [TestNG-tests-3] ERROR TestCases.RegisterTest - org.openqa.selenium.NoSuchElementException: Unable to locate element: //b[contains(text(), 'Account Created!')]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ab92cb5f-9d81-4765-8662-f562c2214ca2, findElement {using=xpath, value=//b[contains(text(), 'Account Created!')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:48706, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18288, moz:profile: C:\Users\Timss-C\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:48706/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ab92cb5f-9d81-4765-8662-f562c2214ca2
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - ***** Finish testing for user registration *****
-26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Starting testing for logout user *****
-26-12-2023 14:48:35 [TestNG-tests-3] INFO  TestCases.LoginTest - Click logout
-26-12-2023 14:48:35 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
-26-12-2023 14:48:35 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Finish testing for logout user *****
-26-12-2023 14:48:35 [TestNG-tests-3] INFO  TestCases.RegisterTest - ***** Starting testing for user registration with existing email *****
-26-12-2023 14:48:35 [TestNG-tests-3] INFO  TestCases.RegisterTest - Validation if user is in homepage
-26-12-2023 14:48:35 [TestNG-tests-3] ERROR TestCases.RegisterTest - org.openqa.selenium.NoSuchElementException: Unable to locate element: #slider\-carousel
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ab92cb5f-9d81-4765-8662-f562c2214ca2, findElement {using=id, value=slider-carousel}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:48706, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18288, moz:profile: C:\Users\Timss-C\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:48706/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ab92cb5f-9d81-4765-8662-f562c2214ca2
-26-12-2023 14:48:35 [TestNG-tests-3] INFO  TestCases.RegisterTest - ***** Finish testing for user registration with existing email *****
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.RegisterTest - Closed browsers
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Starting testing for login with invalid credentials *****
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.LoginTest - Enters login email
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.LoginTest - Enters password
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.LoginTest - Click login button
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if error message is correct
-26-12-2023 14:48:36 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Finish testing for login with invalid credentials *****
-26-12-2023 14:48:37 [TestNG-tests-3] INFO  TestCases.LoginTest - Closed browsers
+26-12-2023 16:10:01 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Finish testing for logout user *****
+26-12-2023 16:10:01 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Starting testing for login with invalid credentials *****
+26-12-2023 16:10:01 [TestNG-tests-2] INFO  TestCases.LoginTest - Enters login email
+26-12-2023 16:10:01 [TestNG-tests-2] INFO  TestCases.LoginTest - Enters password
+26-12-2023 16:10:01 [TestNG-tests-3] INFO  TestCases.LoginTest - Click logout
+26-12-2023 16:10:01 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
+26-12-2023 16:10:01 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Finish testing for logout user *****
+26-12-2023 16:10:01 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Starting testing for login with invalid credentials *****
+26-12-2023 16:10:01 [TestNG-tests-3] INFO  TestCases.LoginTest - Enters login email
+26-12-2023 16:10:01 [TestNG-tests-3] INFO  TestCases.LoginTest - Enters password
+26-12-2023 16:10:02 [TestNG-tests-2] INFO  TestCases.LoginTest - Click login button
+26-12-2023 16:10:02 [TestNG-tests-2] INFO  TestCases.LoginTest - Validation if error message is correct
+26-12-2023 16:10:02 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Finish testing for login with invalid credentials *****
+26-12-2023 16:10:02 [TestNG-tests-2] INFO  TestCases.LoginTest - Closed browsers
+26-12-2023 16:10:03 [TestNG-tests-3] INFO  TestCases.LoginTest - Click login button
+26-12-2023 16:10:03 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if error message is correct
+26-12-2023 16:10:03 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Finish testing for login with invalid credentials *****
+26-12-2023 16:10:03 [TestNG-tests-3] INFO  TestCases.LoginTest - Closed browsers

@@ -1,0 +1,51 @@
+26-12-2023 14:48:29 [TestNG-tests-2] INFO  TestCases.RegisterTest - ***** Finish testing for user registration with existing email *****
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.RegisterTest - Closed browsers
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Starting testing for login with invalid credentials *****
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - Enters login email
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - Enters password
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - Click login button
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - Validation if error message is correct
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Finish testing for login with invalid credentials *****
+26-12-2023 14:48:30 [TestNG-tests-1] INFO  TestCases.RegisterTest - Click continue button
+26-12-2023 14:48:30 [TestNG-tests-1] INFO  TestCases.RegisterTest - ***** Finish testing for user registration *****
+26-12-2023 14:48:30 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Starting testing for logout user *****
+26-12-2023 14:48:30 [TestNG-tests-2] INFO  TestCases.LoginTest - Closed browsers
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.LoginTest - Click logout
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Finish testing for logout user *****
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.RegisterTest - ***** Starting testing for user registration with existing email *****
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.RegisterTest - Validation if user is in homepage
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.RegisterTest - Click Signup / Login
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.RegisterTest - Enters name
+26-12-2023 14:48:31 [TestNG-tests-1] INFO  TestCases.RegisterTest - Enters email
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.RegisterTest - Click signup button
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.RegisterTest - Validation if error message is correct
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.RegisterTest - ***** Finish testing for user registration with existing email *****
+26-12-2023 14:48:32 [TestNG-tests-3] INFO  TestCases.RegisterTest - Load URL: https://automationexercise.com/
+26-12-2023 14:48:32 [TestNG-tests-3] INFO  TestCases.RegisterTest - ***** Starting testing for user registration *****
+26-12-2023 14:48:32 [TestNG-tests-3] INFO  TestCases.RegisterTest - Validation if user is in homepage
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.RegisterTest - Closed browsers
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Starting testing for login with invalid credentials *****
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - Enters login email
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - Enters password
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - Click login button
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if error message is correct
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Finish testing for login with invalid credentials *****
+26-12-2023 14:48:32 [TestNG-tests-1] INFO  TestCases.LoginTest - Closed browsers
+26-12-2023 14:48:32 [TestNG-tests-3] INFO  TestCases.RegisterTest - Click Signup / Login
+26-12-2023 14:48:32 [TestNG-tests-3] INFO  TestCases.RegisterTest - Validation if New User Signup is displayed
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enters name
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enters email
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Click signup button
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Validation if Enter Account Information is displayed
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Select title
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter password
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Select day
+26-12-2023 14:48:33 [TestNG-tests-3] INFO  TestCases.RegisterTest - Select month
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Select year
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Check newsletter checkbox
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Check offers checkbox
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter first name
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter last name
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Enter address 1
+26-12-2023 14:48:34 [TestNG-tests-3] INFO  TestCases.RegisterTest - Select country

@@ -38,9 +38,9 @@ public class ExtentReportUtilities implements ITestListener {
         spark.config().thumbnailForBase64(true);
         spark.config().setTimelineEnabled(true);
 
-        extent.setSystemInfo("Application Name", "OpenCart");
-        extent.setSystemInfo("OS", System.getProperty("os.name"));
-        extent.setSystemInfo("Username", System.getProperty("user.name"));
+        extent.setSystemInfo("Application Name", "Automation Exercise");
+        extent.setSystemInfo("OS", "Linux");
+        extent.setSystemInfo("Username", "Hello");
         extent.setSystemInfo("Environment", "QA");
     }
 

@@ -6,6 +6,7 @@
         <listener class-name="Utilities.ExtentReportUtilities"/>
     </listeners>
     <test name="Functional Testing">
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="TestCases.LoginTest"/>
             <class name="TestCases.RegisterTest"/>

@@ -11,9 +11,16 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.Browser;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,39 +39,35 @@ public class BaseClass extends CommonMethods {
         log = LogManager.getLogger(this.getClass());
         res = ResourceBundle.getBundle("conf");
 
-        switch (browser){
-           case "chrome"-> {
-               ChromeOptions chrome = new ChromeOptions();
-               prefs.put("autofill.profile_enabled", false);
-               chrome.setExperimentalOption("prefs", prefs);
-               chrome.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-               chrome.addExtensions(new File(System.getProperty("user.dir") +
-                       "\\extensions\\uBlock Origin 1.54.0.0.crx"));
+        try {
+            URI uri = new URI("http://localhost:4444");
+            URL url = uri.toURL();
 
-               driver = new ChromeDriver(chrome);
-               log.info("Opening the chrome browser");
-           }
-           case "edge" -> {
-               EdgeOptions edge = new EdgeOptions();
-               prefs.put("autofill.profile_enabled", false);
-               edge.setExperimentalOption("prefs", prefs);
-               edge.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-               edge.addExtensions(new File(System.getProperty("user.dir") +
-                       "\\extensions\\uBlock Origin 1.54.0.0.crx"));
-               driver = new EdgeDriver(edge);
-           }
-           case "firefox" -> {
-               File profilePath = Paths.get("src", "test", "resources", "n3do88la.automation").toFile();
-               FirefoxProfile profile = new FirefoxProfile(profilePath);
-               FirefoxOptions options = new FirefoxOptions();
-               options.setProfile(profile);
-               driver = new FirefoxDriver(options);
-           }
+            switch (browser){
+                case "chrome"-> {
+                    DesiredCapabilities chrome = new DesiredCapabilities();
+                    chrome.setBrowserName(Browser.CHROME.browserName());
+                    chrome.setVersion("120.0");
+                    driver = new RemoteWebDriver(url, chrome);
+                    log.info("Opening the chrome browser");
+                }
+                case "edge" -> {
+                    DesiredCapabilities edge = new DesiredCapabilities();
+                    edge.setBrowserName(Browser.EDGE.browserName());
+                    edge.setVersion("120.0");
+                    driver = new RemoteWebDriver(url, edge);
+                }
+                case "firefox" -> {
+                    DesiredCapabilities firefox = new DesiredCapabilities();
+                    firefox.setBrowserName(Browser.FIREFOX.browserName());
+                    firefox.setVersion("120.0");
+                    driver = new RemoteWebDriver(url ,firefox);
+                }
+            }
         }
-
-        driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
-
+        catch (Exception e) {
+            log.error(e.getMessage());
+        }
         driver.get(res.getString("URL"));
         log.info("Load URL: " + res.getString("URL"));
     }

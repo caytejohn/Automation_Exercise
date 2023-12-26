@@ -1,49 +1,36 @@
-26-12-2023 16:07:55 [TestNG-tests-3] INFO  TestCases.LoginTest - Click login button
-26-12-2023 16:07:55 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if Logged in as username is displayed
-26-12-2023 16:07:55 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Finish testing for login with valid credentials *****
-26-12-2023 16:09:53 [TestNG-tests-1] INFO  TestCases.LoginTest - Opening the chrome browser
-26-12-2023 16:09:55 [TestNG-tests-1] INFO  TestCases.LoginTest - Load URL: https://automationexercise.com/
-26-12-2023 16:09:55 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Starting testing for login with valid credentials *****
-26-12-2023 16:09:55 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if user is in homepage
-26-12-2023 16:09:55 [TestNG-tests-2] INFO  TestCases.LoginTest - Load URL: https://automationexercise.com/
-26-12-2023 16:09:55 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Starting testing for login with valid credentials *****
-26-12-2023 16:09:55 [TestNG-tests-2] INFO  TestCases.LoginTest - Validation if user is in homepage
-26-12-2023 16:09:56 [TestNG-tests-3] INFO  TestCases.LoginTest - Load URL: https://automationexercise.com/
-26-12-2023 16:09:56 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Starting testing for login with valid credentials *****
-26-12-2023 16:09:56 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if user is in homepage
-26-12-2023 16:09:56 [TestNG-tests-1] INFO  TestCases.LoginTest - Click Signup / Login
-26-12-2023 16:09:56 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
-26-12-2023 16:09:56 [TestNG-tests-1] INFO  TestCases.LoginTest - Enters login email
-26-12-2023 16:09:56 [TestNG-tests-1] INFO  TestCases.LoginTest - Enters password
-26-12-2023 16:09:57 [TestNG-tests-2] INFO  TestCases.LoginTest - Click Signup / Login
-26-12-2023 16:09:57 [TestNG-tests-2] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
-26-12-2023 16:09:57 [TestNG-tests-2] INFO  TestCases.LoginTest - Enters login email
-26-12-2023 16:09:57 [TestNG-tests-2] INFO  TestCases.LoginTest - Enters password
-26-12-2023 16:09:57 [TestNG-tests-3] INFO  TestCases.LoginTest - Click Signup / Login
-26-12-2023 16:09:57 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
-26-12-2023 16:09:57 [TestNG-tests-3] INFO  TestCases.LoginTest - Enters login email
-26-12-2023 16:09:57 [TestNG-tests-3] INFO  TestCases.LoginTest - Enters password
-26-12-2023 16:09:58 [TestNG-tests-1] INFO  TestCases.LoginTest - Click login button
-26-12-2023 16:09:58 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if Logged in as username is displayed
-26-12-2023 16:09:58 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Finish testing for login with valid credentials *****
-26-12-2023 16:09:58 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Starting testing for logout user *****
-26-12-2023 16:09:59 [TestNG-tests-1] INFO  TestCases.LoginTest - Click logout
-26-12-2023 16:09:59 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
-26-12-2023 16:09:59 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Finish testing for logout user *****
-26-12-2023 16:09:59 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Starting testing for login with invalid credentials *****
-26-12-2023 16:09:59 [TestNG-tests-1] INFO  TestCases.LoginTest - Enters login email
-26-12-2023 16:09:59 [TestNG-tests-1] INFO  TestCases.LoginTest - Enters password
-26-12-2023 16:10:00 [TestNG-tests-2] INFO  TestCases.LoginTest - Click login button
-26-12-2023 16:10:00 [TestNG-tests-2] INFO  TestCases.LoginTest - Validation if Logged in as username is displayed
-26-12-2023 16:10:00 [TestNG-tests-1] INFO  TestCases.LoginTest - Click login button
-26-12-2023 16:10:00 [TestNG-tests-1] INFO  TestCases.LoginTest - Validation if error message is correct
-26-12-2023 16:10:00 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Finish testing for login with valid credentials *****
-26-12-2023 16:10:00 [TestNG-tests-2] INFO  TestCases.LoginTest - ***** Starting testing for logout user *****
-26-12-2023 16:10:00 [TestNG-tests-1] INFO  TestCases.LoginTest - ***** Finish testing for login with invalid credentials *****
-26-12-2023 16:10:00 [TestNG-tests-1] INFO  TestCases.LoginTest - Closed browsers
-26-12-2023 16:10:00 [TestNG-tests-3] INFO  TestCases.LoginTest - Click login button
-26-12-2023 16:10:00 [TestNG-tests-3] INFO  TestCases.LoginTest - Validation if Logged in as username is displayed
-26-12-2023 16:10:00 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Finish testing for login with valid credentials *****
-26-12-2023 16:10:00 [TestNG-tests-3] INFO  TestCases.LoginTest - ***** Starting testing for logout user *****
-26-12-2023 16:10:01 [TestNG-tests-2] INFO  TestCases.LoginTest - Click logout
-26-12-2023 16:10:01 [TestNG-tests-2] INFO  TestCases.LoginTest - Validation if Login to your account is displayed
+26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - ***** Finish testing for user registration *****
+26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - ***** Starting testing for user registration with existing email *****
+26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - Validation if user is in homepage
+26-12-2023 19:12:22 [main] ERROR TestCases.RegisterTest - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#slider\-carousel"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f33cefba14a33e69641a2d6c25480820, findElement {using=id, value=slider-carousel}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.29.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.29.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f33cefba14a33e69641a2d6c25480820
+26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - ***** Finish testing for user registration with existing email *****
+26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - Closed browsers
+26-12-2023 19:12:22 [main] INFO  TestCases.ContactUsTest - Opening the chrome browser
+26-12-2023 19:12:25 [main] INFO  TestCases.ContactUsTest - Load URL: https://automationexercise.com/
+26-12-2023 19:12:25 [main] INFO  TestCases.ContactUsTest - ***** Starting testing for contact us form *****
+26-12-2023 19:12:25 [main] INFO  TestCases.ContactUsTest - Validation if user is in homepage
+26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Click contact us
+26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Validation if Get Touch is displayed
+26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters name
+26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters email
+26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters subject
+26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters message
+26-12-2023 19:12:26 [main] ERROR TestCases.ContactUsTest - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Timss-C\IdeaProjects\Automation_Exercise\src\test\resources\conf.properties
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [aa6221bbd60fe0f5c6f5775f8e11721a, sendKeysToElement {id=A48B101436B5D1470618248253036303_element_84, value=[Ljava.lang.CharSequence;@169268a7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40737}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.29.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.29.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (aa6221bbd60fe0f5c6f5775f8e11721a)] -> css selector: input[name='upload_file']]
+Session ID: aa6221bbd60fe0f5c6f5775f8e11721a
+26-12-2023 19:12:27 [main] INFO  TestCases.ContactUsTest - Closed browsers
+26-12-2023 19:12:27 [main] INFO  TestCases.NavigationTestCasesPageTest - Opening the chrome browser
+26-12-2023 19:12:29 [main] INFO  TestCases.NavigationTestCasesPageTest - Load URL: https://automationexercise.com/

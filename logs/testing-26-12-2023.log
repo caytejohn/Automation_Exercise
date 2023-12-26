@@ -1,36 +1,36 @@
-26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - ***** Finish testing for user registration *****
-26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - ***** Starting testing for user registration with existing email *****
-26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - Validation if user is in homepage
-26-12-2023 19:12:22 [main] ERROR TestCases.RegisterTest - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#slider\-carousel"}
-  (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [f33cefba14a33e69641a2d6c25480820, findElement {using=id, value=slider-carousel}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.29.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.29.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f33cefba14a33e69641a2d6c25480820
-26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - ***** Finish testing for user registration with existing email *****
-26-12-2023 19:12:22 [main] INFO  TestCases.RegisterTest - Closed browsers
-26-12-2023 19:12:22 [main] INFO  TestCases.ContactUsTest - Opening the chrome browser
-26-12-2023 19:12:25 [main] INFO  TestCases.ContactUsTest - Load URL: https://automationexercise.com/
-26-12-2023 19:12:25 [main] INFO  TestCases.ContactUsTest - ***** Starting testing for contact us form *****
-26-12-2023 19:12:25 [main] INFO  TestCases.ContactUsTest - Validation if user is in homepage
-26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Click contact us
-26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Validation if Get Touch is displayed
-26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters name
-26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters email
-26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters subject
-26-12-2023 19:12:26 [main] INFO  TestCases.ContactUsTest - Enters message
-26-12-2023 19:12:26 [main] ERROR TestCases.ContactUsTest - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Timss-C\IdeaProjects\Automation_Exercise\src\test\resources\conf.properties
+26-12-2023 19:46:28 [main] INFO  TestCases.ContactUsTest - Enters subject
+26-12-2023 19:46:28 [main] INFO  TestCases.ContactUsTest - Enters message
+26-12-2023 19:46:28 [main] ERROR TestCases.ContactUsTest - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Timss-C\IdeaProjects\Automation_Exercise\src\test\resources\conf.properties
   (Session info: chrome=120.0.6099.109)
 Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [aa6221bbd60fe0f5c6f5775f8e11721a, sendKeysToElement {id=A48B101436B5D1470618248253036303_element_84, value=[Ljava.lang.CharSequence;@169268a7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40737}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.29.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.29.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[RemoteWebDriver: chrome on linux (aa6221bbd60fe0f5c6f5775f8e11721a)] -> css selector: input[name='upload_file']]
-Session ID: aa6221bbd60fe0f5c6f5775f8e11721a
-26-12-2023 19:12:27 [main] INFO  TestCases.ContactUsTest - Closed browsers
-26-12-2023 19:12:27 [main] INFO  TestCases.NavigationTestCasesPageTest - Opening the chrome browser
-26-12-2023 19:12:29 [main] INFO  TestCases.NavigationTestCasesPageTest - Load URL: https://automationexercise.com/
+Command: [c03c1cbdfed8871584fdd62b87d259f2, sendKeysToElement {id=CB7A3CDC75C165E74420159D1AA534F3_element_88, value=[Ljava.lang.CharSequence;@70d63e05}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.144.5:4444/ses..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://192.168.144.5:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.144.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (c03c1cbdfed8871584fdd62b87d259f2)] -> css selector: input[name='upload_file']]
+Session ID: c03c1cbdfed8871584fdd62b87d259f2
+26-12-2023 19:46:28 [main] INFO  TestCases.ContactUsTest - Closed browsers
+26-12-2023 19:46:28 [main] INFO  TestCases.NavigationTestCasesPageTest - Opening the chrome browser
+26-12-2023 19:46:31 [main] INFO  TestCases.NavigationTestCasesPageTest - Load URL: https://automationexercise.com/
+26-12-2023 19:46:31 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Starting testing for navigation to test cases page *****
+26-12-2023 19:46:31 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user is in homepage
+26-12-2023 19:46:32 [main] INFO  TestCases.NavigationTestCasesPageTest - Click test cases
+26-12-2023 19:46:32 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user successfully navigated to test cases page
+26-12-2023 19:46:32 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Finish testing for navigation to test cases page *****
+26-12-2023 19:46:32 [main] INFO  TestCases.NavigationTestCasesPageTest - Closed browsers
+26-12-2023 19:46:32 [main] INFO  TestCases.ProductTest - Opening the chrome browser
+26-12-2023 19:46:37 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
+26-12-2023 19:46:37 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
+26-12-2023 19:46:37 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
+26-12-2023 19:46:37 [main] INFO  TestCases.ProductTest - Click product
+26-12-2023 19:46:37 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
+26-12-2023 19:46:37 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
+26-12-2023 19:46:38 [main] ERROR TestCases.ProductTest - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/products">...</a> is not clickable at point (513, 40). Other element would receive the click: <iframe id="aswift_5" name="aswift_5" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20231207/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-0-&amp;adk=1812271808&amp;client=ca-pub-1677597403311019&amp;fa=8&amp;ifi=6&amp;uci=a!6" data-google-container-id="a!6" data-google-query-id="CNzb4OCDrYMDFfQggwMdIsEJyA" data-load-complete="true"></iframe>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [4801a0864bab72666f5baf8f5fe14163, clickElement {id=4E31F9A19F300D758ED6E12FF2E4A486_element_27}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.144.5:4444/ses..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://192.168.144.5:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.144.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (4801a0864bab72666f5baf8f5fe14163)] -> xpath: //a[contains(text(),'Products')]]
+Session ID: 4801a0864bab72666f5baf8f5fe14163

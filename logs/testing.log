@@ -1,41 +1,19 @@
-26-12-2023 19:12:29 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Starting testing for navigation to test cases page *****
-26-12-2023 19:12:29 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user is in homepage
-26-12-2023 19:12:31 [main] INFO  TestCases.NavigationTestCasesPageTest - Click test cases
-26-12-2023 19:12:31 [main] INFO  TestCases.NavigationTestCasesPageTest - Validation if user successfully navigated to test cases page
-26-12-2023 19:12:31 [main] INFO  TestCases.NavigationTestCasesPageTest - ***** Finish testing for navigation to test cases page *****
-26-12-2023 19:12:31 [main] INFO  TestCases.NavigationTestCasesPageTest - Closed browsers
-26-12-2023 19:12:31 [main] INFO  TestCases.ProductTest - Opening the chrome browser
-26-12-2023 19:12:34 [main] INFO  TestCases.ProductTest - Load URL: https://automationexercise.com/
-26-12-2023 19:12:34 [main] INFO  TestCases.ProductTest - ***** Starting testing for navigation to product page *****
-26-12-2023 19:12:34 [main] INFO  TestCases.ProductTest - Validation if user is in homepage
-26-12-2023 19:12:35 [main] INFO  TestCases.ProductTest - Click product
-26-12-2023 19:12:35 [main] INFO  TestCases.ProductTest - Validation if user successfully navigated to product page
-26-12-2023 19:12:35 [main] INFO  TestCases.ProductTest - ***** Starting testing for searching products *****
-26-12-2023 19:12:35 [main] ERROR TestCases.ProductTest - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Products')]"}
-  (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [1c88865ee9ffd19f66e2066939d4243c, findElement {using=xpath, value=//a[contains(text(),'Products')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.29.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.29.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1c88865ee9ffd19f66e2066939d4243c
-26-12-2023 19:12:35 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
-26-12-2023 19:12:35 [main] INFO  TestCases.ProductTest - Closed browsers
-26-12-2023 19:12:36 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Enters email address
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - ***** Finish testing for subscription in homepage *****
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
-26-12-2023 19:12:38 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
-26-12-2023 19:12:39 [main] INFO  TestCases.SubscriptionTest - Click cart
-26-12-2023 19:12:39 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
-26-12-2023 19:12:39 [main] INFO  TestCases.SubscriptionTest - Enters email address
-26-12-2023 19:12:39 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
-26-12-2023 19:12:39 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
-26-12-2023 19:12:39 [main] INFO  TestCases.SubscriptionTest - Closed browsers
+26-12-2023 19:46:38 [main] INFO  TestCases.ProductTest - ***** Finish testing for searching products *****
+26-12-2023 19:46:38 [main] INFO  TestCases.ProductTest - Closed browsers
+26-12-2023 19:46:38 [main] INFO  TestCases.SubscriptionTest - Opening the chrome browser
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Load URL: https://automationexercise.com/
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Enters email address
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - ***** Finish testing for subscription in homepage *****
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - ***** Starting testing for subscription in homepage *****
+26-12-2023 19:46:41 [main] INFO  TestCases.SubscriptionTest - Validation if user is in homepage
+26-12-2023 19:46:42 [main] INFO  TestCases.SubscriptionTest - Click cart
+26-12-2023 19:46:42 [main] INFO  TestCases.SubscriptionTest - Validation if subscription text is correct
+26-12-2023 19:46:42 [main] INFO  TestCases.SubscriptionTest - Enters email address
+26-12-2023 19:46:42 [main] INFO  TestCases.SubscriptionTest - Click subscribe button
+26-12-2023 19:46:42 [main] INFO  TestCases.SubscriptionTest - Validation if success subscription message is displayed
+26-12-2023 19:46:42 [main] INFO  TestCases.SubscriptionTest - Closed browsers

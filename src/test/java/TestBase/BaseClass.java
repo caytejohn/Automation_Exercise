@@ -25,13 +25,28 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
+import java.util.concurrent.TimeUnit;
 
 public class BaseClass extends CommonMethods {
 
     public WebDriver driver;
     public Logger log;
     public ResourceBundle res;
+    public ProcessBuilder pb;
     public Map<String, Object> prefs = new HashMap<String, Object>();
+
+    @BeforeTest
+    public void startGrid() {
+        try {
+            pb = new ProcessBuilder("cmd.exe", "/C", "start", "start_dockergrid.bat");
+            pb.start();
+
+            TimeUnit.MILLISECONDS.sleep(7000);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     @Parameters({"browser"})
     @BeforeClass
@@ -76,5 +91,21 @@ public class BaseClass extends CommonMethods {
     public void tearDown() {
         driver.quit();
         log.info("Closed browsers");
+    }
+
+    @AfterTest
+    public void stopGrid() {
+        try {
+            pb = new ProcessBuilder("cmd.exe", "/C", "start", "stop_dockergrid.bat");
+            pb.start();
+
+            TimeUnit.MILLISECONDS.sleep(5000);
+
+            pb = new ProcessBuilder("taskkill", "/f", "/im", "cmd.exe");
+            pb.start();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

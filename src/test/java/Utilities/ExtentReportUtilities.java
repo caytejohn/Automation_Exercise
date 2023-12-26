@@ -24,7 +24,7 @@ public class ExtentReportUtilities implements ITestListener {
     public ExtentTest test;
 
     public void onStart(ITestContext context) {
-        String timeStamp = new SimpleDateFormat("dd-MM-yyyy hhmmss").format(new Date());
+        String timeStamp = new SimpleDateFormat("dd-MM-yyyy_hhmmss").format(new Date());
 
         spark = new ExtentSparkReporter(System.getProperty("user.dir")
                 + "\\reports\\" + "test_report_" + timeStamp + ".html");

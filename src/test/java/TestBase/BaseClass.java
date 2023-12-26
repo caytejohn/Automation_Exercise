@@ -98,11 +98,6 @@ public class BaseClass extends CommonMethods {
         try {
             pb = new ProcessBuilder("cmd.exe", "/C", "start", "stop_dockergrid.bat");
             pb.start();
-
-            TimeUnit.MILLISECONDS.sleep(5000);
-
-            pb = new ProcessBuilder("taskkill", "/f", "/im", "cmd.exe");
-            pb.start();
         }
         catch (Exception e) {
             e.printStackTrace();

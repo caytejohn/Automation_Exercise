@@ -71,12 +71,14 @@ public class BaseClass extends CommonMethods {
                     edge.setBrowserName(Browser.EDGE.browserName());
                     edge.setVersion("120.0");
                     driver = new RemoteWebDriver(url, edge);
+                    log.info("Opening the edge browser");
                 }
                 case "firefox" -> {
                     DesiredCapabilities firefox = new DesiredCapabilities();
                     firefox.setBrowserName(Browser.FIREFOX.browserName());
                     firefox.setVersion("120.0");
                     driver = new RemoteWebDriver(url ,firefox);
+                    log.info("Opening the firefox browser");
                 }
             }
         }
